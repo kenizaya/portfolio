@@ -7,6 +7,7 @@ module.exports = {
         valencia: ['Valencia', 'serif'],
         avenirRoman: ['AvenirRoman', 'sans-serif'],
         avenirBook: ['AvenirBook', 'sans-serif'],
+        avenirLight: ['AvenirLight', 'sans-serif'],
       },
     },
   },
