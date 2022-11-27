@@ -2,7 +2,13 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        valencia: ['Valencia', 'serif'],
+        avenirRoman: ['AvenirRoman', 'sans-serif'],
+        avenirBook: ['AvenirBook', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

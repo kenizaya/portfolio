@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Valencia';
+  src: url('../src/assets/fonts/Valencia/Valencia.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('../src/assets/fonts/Avenir/Avenir-Roman.ttf');
+}
+
+@font-face {
+  font-family: 'AvenirBook';
+  src: url('../src/assets/fonts/Avenir/Avenir-Book.ttf');
+}
