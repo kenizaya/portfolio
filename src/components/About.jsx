@@ -3,18 +3,18 @@ import React from 'react'
 
 const About = () => {
   const { scrollYProgress } = useScroll()
-  const tX = useTransform(scrollYProgress, [0, 1], ['-20%', '50%'])
+  const tX = useTransform(scrollYProgress, [0, 1], ['-10%', '70%'])
 
   return (
     <motion.section className='h-[40vh] w-full relative overflow-hidden'>
       <motion.div
-        className='text-[200px] font-avenirHeavy text-gray-200 w-full absolute '
+        className='text-7xl md:text-9xl lg:text-[200px] font-avenirHeavy text-gray-200 w-full absolute '
         transition={{ duration: 1 }}
         style={{ translateX: tX }}
       >
         ABOUT
       </motion.div>
-      <div className='font-avenirLight text-4xl ml-[30%] mr-[5%] absolute top-[30%]'>
+      <div className='font-avenirLight text-xl md:text-2xl lg:text-4xl mx-5 md:ml-[30%] md:mr-[5%] absolute top-[25%]'>
         Front-end developer who cares deeply about user experience. Serious
         passion for web development and new technologies.
       </div>

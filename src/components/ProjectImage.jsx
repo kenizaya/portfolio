@@ -17,7 +17,7 @@ const ProjectImage = ({ image = '', id }) => {
 
   return (
     <div
-      className='w-1/2 flex items-center relative mr-[2%]'
+      className='w-full md:w-1/2 flex items-center relative mr-[2%]'
       ref={containerRef}
     >
       <motion.div
@@ -30,11 +30,7 @@ const ProjectImage = ({ image = '', id }) => {
           className='bg-gradient-to-r from-transparent via-gray-100 to-gray-200 h-full w-full absolute left-0 z-0'
           style={{ translateX: bottomShadowX }}
         />
-        <img
-          src={testImg}
-          alt=''
-          className='min-w-[700px] w-full relative z-10 shadow-md'
-        />
+        <img src={testImg} alt='' className='w-full relative z-10 shadow-md' />
         <motion.div
           className='bg-gradient-to-r from-transparent via-gray-100 to-gray-200 h-full w-[125%] absolute left-0 top-0 z-20'
           style={{ translateX: topShadowX }}

@@ -28,19 +28,19 @@ const Hero = () => {
         <motion.div
           variants={itemVariants}
           transition={{ duration: 0.5 }}
-          className='font-valencia text-[150px] text-center'
+          className='font-valencia text-7xl md:text-9xl lg:text-[150px] text-center'
         >
           Prashant Thapa
         </motion.div>
         <motion.div
           variants={itemVariants}
           transition={{ duration: 0.75 }}
-          className='font-avenirRoman text-5xl text-center'
+          className='font-avenirRoman text-2xl md:text-4xl lg:text-5xl text-center'
         >
           Front-End Developer
         </motion.div>
       </motion.div>
-      <div className='font-avenirRoman flex flex-col items-center gap-2 absolute bottom-5'>
+      <div className='font-avenirRoman text-sm md:text-md flex flex-col items-center gap-2 absolute bottom-5'>
         Scroll
         <AiOutlineArrowDown size={22} className='fill-black animate-pulse' />
       </div>

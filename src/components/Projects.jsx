@@ -11,7 +11,7 @@ const Projects = () => {
         return (
           <section
             key={id}
-            className='h-screen flex justify-between my-screen mx-auto w-full overflow-hidden'
+            className='h-screen md:flex justify-between my-screen mx-auto w-full overflow-hidden'
           >
             <ProjectDetail
               id={id}
