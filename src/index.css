@@ -21,3 +21,8 @@
   font-family: 'AvenirLight';
   src: url('../src/assets/fonts/Avenir/Avenir-Light.ttf');
 }
+
+@font-face {
+  font-family: 'AvenirHeavy';
+  src: url('../src/assets/fonts/Avenir/Avenir-Heavy.ttf');
+}

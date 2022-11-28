@@ -8,16 +8,16 @@ const About = () => {
   return (
     <motion.section className='h-[40vh] w-full relative overflow-hidden'>
       <motion.div
-        className='text-[200px] text-gray-200 w-full -top-[15%] absolute '
+        className='text-[200px] font-avenirHeavy text-gray-200 w-full -top-[15%] absolute '
         transition={{ duration: 1 }}
         style={{ translateX: tX }}
       >
         ABOUT ME
       </motion.div>
-      <motion.div className='font-avenirLight text-4xl ml-[30%] mr-[5%] absolute top-[15%]'>
+      <div className='font-avenirLight text-4xl ml-[30%] mr-[5%] absolute top-[15%]'>
         Front-end developer who cares deeply about user experience. Serious
         passion for web development and new technologies.
-      </motion.div>
+      </div>
     </motion.section>
   )
 }
