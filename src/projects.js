@@ -1,3 +1,7 @@
+import sinstagramImg from '../src/assets/sinstagram.png'
+import blazeImg from '../src/assets/blaze.png'
+import waldowImg from '../src/assets/waldow.png'
+
 const projects = [
   {
     id: 0,
@@ -8,6 +12,7 @@ const projects = [
     repo: 'https://github.com/kenizaya/sinstagram',
     type: 'FULL STACK',
     languages: 'React | Firebase | Tailwind CSS',
+    image: sinstagramImg,
   },
   {
     id: 1,
@@ -18,16 +23,18 @@ const projects = [
     repo: 'https://github.com/kenizaya/blaze',
     type: 'WEB APP',
     languages: 'React | Auth | Serverless Functions | Stripe',
+    image: blazeImg,
   },
   {
     id: 2,
     title: 'Waldow',
     description:
-      "Photo tagging puzzle game inspired by where's waldow with multiple levels to compete against the best.  ",
+      "Photo tagging puzzle game inspired by where's waldo with multiple levels to compete against the best.  ",
     live: 'https://sinstagram.netlify.app/',
     repo: 'https://github.com/kenizaya/sinstagram',
     type: 'WEB APP',
     languages: 'React | Firebase | Javascript',
+    image: waldowImg,
   },
 ]
 

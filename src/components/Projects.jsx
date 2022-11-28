@@ -7,11 +7,12 @@ const Projects = () => {
   return (
     <>
       {projects.map((project) => {
-        const { id, title, description, live, repo, languages, type } = project
+        const { id, title, description, live, repo, languages, type, image } =
+          project
         return (
           <section
             key={id}
-            className='h-screen md:flex justify-between my-screen mx-auto w-full overflow-hidden'
+            className='h-screen md:flex justify-between mx-auto w-full overflow-hidden'
           >
             <ProjectDetail
               id={id}
@@ -22,7 +23,7 @@ const Projects = () => {
               languages={languages}
               type={type}
             />
-            <ProjectImage id={id} />
+            <ProjectImage id={id} image={image} />
           </section>
         )
       })}

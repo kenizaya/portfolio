@@ -6,7 +6,7 @@ const Skills = () => {
   const tX = useTransform(scrollYProgress, [0, 1], ['100%', '10%'])
 
   return (
-    <motion.section className='h-[82vh] md:h-[115vh] lg:h-[120vh] w-full mt-40 md:mt-0 relative overflow-hidden'>
+    <motion.section className='h-[82vh] md:h-[115vh] lg:h-[120vh] w-full mt-20 relative overflow-hidden'>
       <div className='font-avenirRoman md:leading-normal text-xl md:text-3xl lg:text-[40px] text-left w-4/5 ml-[10%] flex justify-around items-center'>
         <div>
           React
