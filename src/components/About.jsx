@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   const { scrollYProgress } = useScroll()
-  const tX = useTransform(scrollYProgress, [0, 1], ['-100%', '0%'])
+  const tX = useTransform(scrollYProgress, [0, 1], ['-25%', '50%'])
 
   return (
     <motion.section className='h-[40vh] w-full relative overflow-hidden'>

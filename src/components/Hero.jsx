@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { AiOutlineArrowDown } from 'react-icons/ai'
 
 const Hero = () => {
   const variants = {
@@ -17,7 +18,7 @@ const Hero = () => {
     show: { opacity: 1, y: '0' },
   }
   return (
-    <div className='flex justify-center items-center w-full h-screen'>
+    <div className='flex relative justify-center items-center w-full h-screen'>
       <motion.div
         variants={variants}
         initial='hidden'
@@ -39,6 +40,10 @@ const Hero = () => {
           Front-End Developer
         </motion.div>
       </motion.div>
+      <div className='font-avenirRoman flex flex-col items-center gap-2 absolute bottom-5'>
+        Scroll
+        <AiOutlineArrowDown size={22} className='fill-black animate-pulse' />
+      </div>
     </div>
   )
 }
