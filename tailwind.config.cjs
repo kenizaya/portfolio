@@ -8,6 +8,7 @@ module.exports = {
         avenirRoman: ['AvenirRoman', 'sans-serif'],
         avenirBook: ['AvenirBook', 'sans-serif'],
         avenirLight: ['AvenirLight', 'sans-serif'],
+        avenirMedium: ['AvenirMedium', 'sans-serif'],
         avenirHeavy: ['AvenirHeavy', 'sans-serif'],
       },
       keyframes: {
