@@ -12,7 +12,7 @@ const Projects = () => {
         return (
           <section
             key={id}
-            className='h-screen md:flex justify-between mx-auto w-full overflow-hidden'
+            className='min-h-screen md:flex justify-between mx-auto w-full overflow-hidden'
           >
             <ProjectDetail
               id={id}

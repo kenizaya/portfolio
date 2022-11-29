@@ -28,7 +28,11 @@ const ProjectImage = ({ image, id }) => {
           className='bg-gradient-to-r from-transparent via-gray-100 to-gray-200 h-full w-full absolute left-0 z-0'
           style={{ translateX: bottomShadowX }}
         />
-        <img src={image} alt='' className='max-h-[840px] relative z-10' />
+        <img
+          src={image}
+          alt=''
+          className='max-h-[840px] h-full relative z-10'
+        />
         <motion.div
           className='bg-gradient-to-r from-transparent via-gray-100 to-gray-200 h-full w-[125%] absolute left-0 top-0 z-20'
           style={{ translateX: topShadowX }}
