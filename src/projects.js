@@ -30,8 +30,8 @@ const projects = [
     title: 'Waldow',
     description:
       "Photo tagging puzzle game inspired by where's waldo with multiple levels to compete against the best.  ",
-    live: 'https://sinstagram.netlify.app/',
-    repo: 'https://github.com/kenizaya/sinstagram',
+    live: 'https://kenizaya.github.io/waldow/',
+    repo: 'https://github.com/kenizaya/waldow',
     type: 'WEB APP',
     languages: 'React | Firebase | Javascript',
     image: waldowImg,
