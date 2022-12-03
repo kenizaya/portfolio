@@ -15,8 +15,8 @@ const About = () => {
         ABOUT
       </motion.div>
       <div className='font-avenirLight text-xl md:text-2xl lg:text-4xl mx-5 md:ml-[30%] md:mr-[5%] absolute top-[25%]'>
-        Front-end developer who cares deeply about user experience. Serious
-        passion for web development and new technologies.
+        Full stack developer who cares deeply about user experience. Serious
+        passion for web and new technologies.
       </div>
     </motion.section>
   )

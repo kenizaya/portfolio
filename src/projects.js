@@ -11,7 +11,7 @@ const projects = [
     live: 'https://sinstagram.netlify.app/',
     repo: 'https://github.com/kenizaya/sinstagram',
     type: 'FULL STACK',
-    languages: 'React | Firebase | Tailwind CSS',
+    languages: 'TypeScript | React | Firebase | Tailwind CSS',
     image: sinstagramImg,
   },
   {

@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 0.75 }}
           className='font-avenirRoman text-2xl md:text-4xl lg:text-5xl text-center'
         >
-          Front-End Developer
+          Full Stack Web Developer
         </motion.div>
       </motion.div>
       <div className='font-avenirRoman text-sm md:text-md flex flex-col items-center gap-2 absolute bottom-5'>
