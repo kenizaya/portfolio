@@ -11,7 +11,7 @@ const Skills = () => {
         <div>
           React
           <br />
-          Javascript
+          TypeScript
           <br />
           Tailwind CSS
           <br />
@@ -20,22 +20,22 @@ const Skills = () => {
           <br />
           CSS
           <br />
-          SCSS
+          JavaScript
           <br />
         </div>
         <div>
           Firebase
           <br />
+          GraphQL
+          <br />
           Git
           <br />
-          Python
           <br />
+          Node.js
           <br />
-          Stack Overflow
+          Express
           <br />
-          Google
-          <br />
-          VS Code
+          MongoDB
           <br />
         </div>
       </div>
